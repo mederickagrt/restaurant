@@ -1,0 +1,103 @@
+body,div {
+    margin: 0;
+    padding: 0;
+  }
+  
+nav {
+    background-color: #cb2222;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin-right: 40px;
+  }
+  
+  .logo img {
+    height: 80px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family:fantasy;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin-right: 40px;
+  }
+  
+  ul li a { /* couleur du texte dans la barre de navigation*/
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  
+  ul li a:hover {   /*Le texte passe en gris au survol de la souris*/
+    background-color: #333;
+    color: #ffef11;
+    border-radius: 15px;
+  }
+
+  h1{   /*Personnaliser le titre*/
+    text-align: center;
+    font-family:cursive;
+    background-color: #333;
+    color: #ffef11;
+    padding: 15px;
+    margin: 0;
+    text-decoration: underline;
+  }
+
+  h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-decoration:underline ;
+    text-align: center;
+
+  }
+  h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #921414;
+    text-align: center;
+
+  }
+
+
+  .card-container {
+    display: flex; /* Utilisez flexbox pour aligner les cartes */
+}
+
+.card {
+    flex: 1; /* Permet aux cartes de s'adapter à l'espace disponible */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 28px 24px 28px rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+}
+.card img{
+  max-width: 100%;
+}
+.custom-button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+    
+    
+
+
+  
+
+
+  
+
+  
